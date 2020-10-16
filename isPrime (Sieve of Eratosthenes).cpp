@@ -13,7 +13,7 @@ public:
     {
         isPrimeArr[0] = isPrimeArr[1] = 0;
         int i, j;
-        for (i = 2; i < MAXN / 2; ++i)
+        for (i = 2; i <= MAXN / 2; ++i)
         {
             if (isPrimeArr[i] == 1)
             {
