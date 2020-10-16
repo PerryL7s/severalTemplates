@@ -9,7 +9,7 @@ private:
     vector<int> isPrimeArr;
 
 public:
-    isPrime(int n) : MAXN(n), isPrimeArr(MAXN, 1)
+    isPrime(int n) : MAXN(n + 1), isPrimeArr(MAXN, 1)
     {
         isPrimeArr[0] = isPrimeArr[1] = 0;
         int i, j;
