@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class egmentTree
+class SegmentTree
 {
 private:
     struct Node
