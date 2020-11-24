@@ -16,7 +16,7 @@ public:
         {
             if (isPrimeArr[i] == 1)
             {
-                for (j = i + i; j < MAXN; j += i)
+                for (j = i * i; j < MAXN; j += i) // trick: replace i + i by i * i since (2 - (i - 1)) have been searched
                     isPrimeArr[j] = 0;
             }
         }
