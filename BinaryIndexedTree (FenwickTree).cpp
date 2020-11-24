@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Index starts from 1.
+// Index starts from 1
 class BinaryIndexedTree
 {
 private:
